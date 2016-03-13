@@ -184,5 +184,44 @@
 }
 .space
 {width:1000px;
-length:50px;
+height:50px;
+}
+.cover {
+    background: url("ajax-loader.gif") no-repeat scroll center center #FFF;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.slogan
+{width:100%;
+ height:30%; 
+font-size: 34px;
+text-align: center;
+font-family: monospace;
+line-height: 30px;
+padding-top: 20px;
+}
+.info
+{  padding-top:20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    font-family: 'Indie Flower', cursive;
+}
+.team
+{width:100%;
+  height:50% ;
+  
+  background-color:azure;
+  text-align: center;
+}
+.processes
+{padding-top:20px;
+  width:100%;
+  height:50%;
+ 
+  text-align: center;
+  //background-color:#BDBDBD;
+  //background:url("about1.png");
+ //background: url("about1.png") no-repeat scroll center center #FFF;    
 }

@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get '/stakeholders'=>'projects#stakeholders'
+  get '/about'=>'home#aboutUS'
+  get '/reports'=>'projects#reports'
+  get '/index'=>'home#index'
+  get '/reroute'=>'projects#reroute'
+  get '/autoTGB'=>'projects#autoTGB'
   #get 'home/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -6,6 +12,7 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
    root 'home#index'
+    get '/test'=>'home#test'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
